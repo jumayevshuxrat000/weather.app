@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <a href="#"> <img src="./assets/rainy.png" alt="">Weather</a>
+            <a href="#"> <img src="./assets/list.png" alt="">Cities</a>
+            <a href="#"><img src="./assets/map (1).png" alt="">Map</a>
+            <a href="#"><img src="./assets/settings.png" alt="">Settings</a>
+        </div>
+        <div class="main">
+            <div class="header">
+                <div>
+                    <h1 class="content__location">Madrid</h1>
+                    <p>Chance of rain: 0%</p>
+                </div>
+                <h1>31&deg;</h1>
+            </div>
+            <div class="forecast">
+                <div class="hour">
+                    <p>6:00 AM</p>
+                    <img src="cloud.png" alt="cloud" width="50">
+                    <span>25&deg;</span>
+                </div>
+                <div class="hour">
+                    <p>9:00 AM</p>
+                    <img src="partly_cloudy.png" alt="partly cloudy" width="50">
+                    <span>28&deg;</span>
+                </div>
+                <div class="hour">
+                    <p>12:00 PM</p>
+                    <img src="sunny.png" alt="sunny" width="50">
+                    <span>33&deg;</span>
+                </div>
+                <div class="hour">
+                    <p>3:00 PM</p>
+                    <img src="sunny.png" alt="sunny" width="50">
+                    <span>34&deg;</span>
+                </div>
+                <div class="hour">
+                    <p>6:00 PM</p>
+                    <img src="sunny.png" alt="sunny" width="50">
+                    <span>32&deg;</span>
+                </div>
+                <div class="hour">
+                    <p>9:00 PM</p>
+                    <img src="cloud.png" alt="cloud" width="50">
+                    <span>30&deg;</span>
+                </div>
+            </div>
+            <div class="conditions">
+                <div>
+                    <p>Real Feel</p>
+                    <h2>30&deg;</h2>
+                </div>
+                <div>
+                    <p>Wind</p>
+                    <h2>0.2 km/h</h2>
+                </div>
+                <div>
+                    <p>UV Index</p>
+                    <h2>3</h2>
+                </div>
+            </div>
+            <div class="week-forecast">
+                <div class="day">
+                    <span>Today</span>
+                    <span>Sunny <strong>36/22</strong></span>
+                </div>
+                <div class="day">
+                    <span>Tue</span>
+                    <span>Sunny <strong>37/21</strong></span>
+                </div>
+                <div class="day">
+                    <span>Wed</span>
+                    <span>Sunny <strong>37/21</strong></span>
+                </div>
+                <div class="day">
+                    <span>Thu</span>
+                    <span>Cloudy <strong>37/21</strong></span>
+                </div>
+                <div class="day">
+                    <span>Fri</span>
+                    <span>Cloudy <strong>37/21</strong></span>
+                </div>
+                <div class="day">
+                    <span>Sat</span>
+                    <span>Rainy <strong>37/21</strong></span>
+                </div>
+                <div class="day">
+                    <span>Sun</span>
+                    <span>Storm <strong>37/21</strong></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script/app.js"></script>
+</body>
+</html>
