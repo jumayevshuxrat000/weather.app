@@ -1,3 +1,6 @@
+const formEl = document.querySelector(".form")
+const inputEl = document.querySelector(".search__input")
+
 const BASE_URL = "https://api.weatherapi.com/v1/forecast.json?key=56b5e13e2b72469bbc6145510242512";
 
 async function fetchWeather(city = "Toshkent") {
@@ -66,5 +69,11 @@ function updateUI(data) {
 }
 
 window.onload = () => {
-    fetchWeather(); 
+    fetchWeather("Mexico"); 
 };
+
+
+formEl.addEventListener("submit", e => {
+    e.preventDefault()
+    fetchWeather(inputEl.value)
+})
